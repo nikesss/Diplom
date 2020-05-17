@@ -1,0 +1,570 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Мебельный магазин</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+      rel="stylesheet"
+      integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./style/style.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <header class="container1">
+        <div class="center">
+          <nav class="navbar my_navbar navbar-expand-lg navbar-light center">
+            <a class="navbar-brand my--nav_brend" href="#">
+              <img
+                src="./images/logo_website.png"
+                width="45"
+                height="45"
+                class="d-inline-block align-top"
+                alt=""
+              />
+              <span>ealag</span>
+            </a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-toggle="collapse"
+              data-target="#navbarNav"
+              aria-controls="navbarNav"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse my_collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link" href="#">О студии</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Проекты</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Отзывы</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Контакты</a>
+                </li>
+              </ul>
+            </div>
+          </nav>
+          <div class="number_phone">
+            <img src="./images/icon_header.svg" alt="icon" />
+            <p>Прилепы 128-46</p>
+            <img src="./images/icon_header2.svg" alt="icon" />
+            <p>+375 44 896 88 44</p>
+            <a href="#">Заказать звонок</a>
+          </div>
+        </div>
+        <div class="content">
+          <div class="main_content center">
+            <div class="text_left">
+              <h1>DeALAg авторские кухни</h1>
+              <p>
+                Позвони сейчас и закажи выезд дизайнера по интерьерам бесплатно
+              </p>
+              <a href="#">Получить консультацию</a>
+            </div>
+            <div class="text_right">
+              <p>Cмотреть проект</p>
+              <button class="btn" type="button">
+                <img src="./images/img_play.svg" alt="play" />
+              </button>
+            </div>
+          </div>
+          <div class="link_social_network">
+            <a href=""><img src="./images/logo_twiter.svg" alt="twite" /></a>
+            <a href=""
+              ><img src="./images/logo_facebook.svg" alt="facebook"
+            /></a>
+            <a href=""
+              ><img src="./images/logo_instagram.svg" alt="instagram"
+            /></a>
+          </div>
+        </div>
+        <img src="./images/bg_header.png" alt="bg_header" />
+      </header>
+      <section class="container2 center">
+        <h2>наши преимущества</h2>
+        <div class="grid_items">
+          <div class="items">
+            <div class="item_img"></div>
+            <div class="item_text">Срок изготовления от 14 до 30 дней</div>
+          </div>
+          <div class="items">
+            <div class="item_img"></div>
+            <div class="item_text">Гарантия мебели от 3 до 10 лет</div>
+          </div>
+          <div class="items">
+            <div class="item_img"></div>
+            <div class="item_text">Рассрочка 0% до 36 месяцев</div>
+          </div>
+          <div class="items">
+            <div class="item_img"></div>
+            <div class="item_text">Предоплата всего от 10%</div>
+          </div>
+          <div class="items">
+            <div class="item_img"></div>
+            <div class="item_text">Выезд дизайнера бесплатно</div>
+          </div>
+          <div class="items">
+            <div class="item_img"></div>
+            <div class="item_text">Каждый месяц новые подарки</div>
+          </div>
+        </div>
+      </section>
+      <section class="container3">
+        <div class="center">
+          <div class="left_content">
+            <h2>вызов дизайнера</h2>
+            <img src="./images/bg_call_designer.png" alt="bg_call_designer" />
+            <p>Виктория Ланская</p>
+          </div>
+          <div class="right_content">
+            <h2>Записаться на замер <span>бесплатно</span></h2>
+            <form>
+              <h3>Наш дизайнер приедит к вам домой:</h3>
+              <div class="item_selector">
+                <input class="check-input" type="checkbox" id="gridCheck1" />
+                <label for="gridCheck1"
+                  >С полным комплектом образцов материалов</label
+                >
+              </div>
+              <div class="item_selector">
+                <input class="check-input" type="checkbox" id="gridCheck2" />
+                <label for="gridCheck2"
+                  >Сделает профессиональный замер помещения</label
+                >
+              </div>
+              <div class="item_selector">
+                <input class="check-input" type="checkbox" id="gridCheck3" />
+                <label for="gridCheck3">Нарисует 3D проект вашей кухни</label>
+              </div>
+              <div class="item_selector">
+                <input class="check-input" type="checkbox" id="gridCheck4" />
+                <label for="gridCheck4"
+                  >Произведет сразу полный расчет мебели
+                </label>
+              </div>
+
+              <h3>Заполните форму и наши менеджеры вам перезвонят</h3>
+
+              <input
+                type="text"
+                class="form-control"
+                id="name"
+                placeholder="Имя"
+              />
+              <input
+                type="text"
+                class="form-control"
+                id="phone"
+                placeholder="Телефон"
+              />
+
+              <button type="submit" class="btn btn-primary">
+                Заказать звонок
+              </button>
+            </form>
+          </div>
+        </div>
+      </section>
+      <section class="container4 center">
+        <h2>калькулятор стоимости</h2>
+        <div class="grid_items">
+          <div class="item active">
+            <div class="left_content">
+              <p>шаг</p>
+            </div>
+            <div class="right_content">
+              <span>№1</span>
+              <p>Форма</p>
+            </div>
+          </div>
+          <div class="item">
+            <div class="left_content">
+              <p>шаг</p>
+            </div>
+            <div class="right_content">
+              <span>№2</span>
+              <p>Размеры</p>
+            </div>
+          </div>
+          <div class="item">
+            <div class="left_content">
+              <p>шаг</p>
+            </div>
+            <div class="right_content">
+              <span>№3</span>
+              <p>Фасады</p>
+            </div>
+          </div>
+          <div class="item">
+            <div class="left_content">
+              <p>шаг</p>
+            </div>
+            <div class="right_content">
+              <span>№4</span>
+              <p>Фурнитура</p>
+            </div>
+          </div>
+          <div class="item">
+            <div class="left_content">
+              <p>шаг</p>
+            </div>
+            <div class="right_content">
+              <span>№5</span>
+              <p>Столешница</p>
+            </div>
+          </div>
+          <div class="item">
+            <div class="left_content">
+              <p>шаг</p>
+            </div>
+            <div class="right_content">
+              <span>№6</span>
+              <p>Стоимость</p>
+            </div>
+          </div>
+        </div>
+        <h3>Выберите планировку кухни</h3>
+        <div class="example">
+          <!--исправить на баттон-->
+          <div class="example_item">
+            <img src="./images/cnt4_citchen1.png" alt="citchen" />
+            <p class="active">Прямая</p>
+          </div>
+          <div class="example_item">
+            <img src="./images/cnt4_citchen2.png" alt="citchen" />
+            <p>Угловая</p>
+          </div>
+          <div class="example_item">
+            <img src="./images/cnt4_citchen3.png" alt="citchen" />
+            <p>П - Образная</p>
+          </div>
+          <div class="example_item">
+            <img src="./images/cnt4_citchen4.png" alt="citchen" />
+            <p>С островом</p>
+          </div>
+        </div>
+        <div class="slider">
+          <button class="prev">
+            <i class="fa fa-arrow-left"></i>
+            Назад
+          </button>
+          <button class="next">
+            Следующий шаг
+          </button>
+        </div>
+      </section>
+      <section class="container5">
+        <div class="center">
+          <h2>наше портфолио</h2>
+          <div class="portfolio">
+            <div class="item">
+              <img src="./images/portfolio1.png" alt="portfolio" />
+            </div>
+            <div class="item">
+              <img src="./images/portfolio2.png" alt="portfolio" />
+            </div>
+            <div class="item">
+              <img src="./images/portfolio3.png" alt="portfolio" />
+            </div>
+            <div class="item">
+              <img src="./images/portfolio4.png" alt="portfolio" />
+            </div>
+            <div class="item">
+              <img src="./images/portfolio5.png" alt="portfolio" />
+            </div>
+            <div class="item">
+              <img src="./images/portfolio6.png" alt="portfolio" />
+            </div>
+            <div class="item">
+              <img src="./images/portfolio7.png" alt="portfolio" />
+            </div>
+            <div class="item">
+              <img src="./images/portfolio8.png" alt="portfolio" />
+            </div>
+            <div class="item">
+              <img src="./images/portfolio9.png" alt="portfolio" />
+            </div>
+            <div class="item">
+              <img src="./images/portfolio10.png" alt="portfolio" />
+            </div>
+          </div>
+          <a href="#">Смотреть все</a>
+        </div>
+        <img src="./images/portfolio_bg.png" alt="portfolio_bg" class="left" />
+        <img src="./images/portfolio_bg.png" alt="portfolio_bg" class="right" />
+      </section>
+      <section class="container6 center">
+        <h2>этапы работы</h2>
+        <div class="work_stage">
+          <div class="stage_item">
+            <img src="./images/stage_work1.png" alt="stage_work" />
+            <div class="number">
+              01
+              <span class="middle">/</span>
+              <span class="right">07</span>
+            </div>
+            <div class="name">3D проект</div>
+          </div>
+          <div class="stage_item">
+            <img src="./images/stage_work2.png" alt="stage_work" />
+            <div class="number">
+              02
+              <span class="middle">/</span>
+              <span class="right">07</span>
+            </div>
+            <div class="name">Просчет</div>
+          </div>
+          <div class="stage_item">
+            <img src="./images/stage_work3.png" alt="stage_work" />
+            <div class="number">
+              03
+              <span class="middle">/</span>
+              <span class="right">07</span>
+            </div>
+            <div class="name">Договор</div>
+          </div>
+          <div class="stage_item">
+            <img src="./images/stage_work5.png" alt="stage_work" />
+            <div class="number">
+              04
+              <span class="middle">/</span>
+              <span class="right">07</span>
+            </div>
+            <div class="name">Производство</div>
+          </div>
+          <div class="stage_item">
+            <img src="./images/stage_work6.png" alt="stage_work" />
+            <div class="number">
+              05
+              <span class="middle">/</span>
+              <span class="right">07</span>
+            </div>
+            <div class="name">Доставка</div>
+          </div>
+          <div class="stage_item">
+            <img src="./images/stage_work7.png" alt="stage_work" />
+            <div class="number">
+              06
+              <span class="middle">/</span>
+              <span class="right">07</span>
+            </div>
+            <div class="name">Монтаж</div>
+          </div>
+          <div class="stage_item">
+            <img src="./images/stage_work4.png" alt="stage_work" />
+            <div class="number">
+              07
+              <span class="middle">/</span>
+              <span class="right">07</span>
+            </div>
+            <div class="name">Счастливые покупатели</div>
+          </div>
+        </div>
+        <a href="#">Получить консультацию</a>
+      </section>
+      <section class="container7">
+        <div class="center">
+          <h2>индивидуальный подход</h2>
+          <h3>
+            Наши профессиональные дизайнеры, найдут подход к любому помещению
+          </h3>
+          <div class="individual_approach">
+            <div class="item">
+              <img
+                src="./images/individual_approach1.png"
+                alt="individual_approach"
+              />
+              <div class="text">
+                <h4>Мы создаем кухни с характером</h4>
+                <p>
+                  Для нас <span>важно</span>, чтобы кухня была не только
+                  <span>функциональной</span>, но и красивой, пособствующая
+                  релаксу. Чтобы на ней
+                  <span>хотелось готовить</span> кулинарные шедевры, и
+                  <span>собираться со своей семьей</span>.
+                </p>
+              </div>
+            </div>
+            <div class="item">
+              <div class="text">
+                <h4>Кухня студия - современное решение</h4>
+                <p>
+                  Кухня-студия является
+                  <span>максимально комфортным решением</span>, особенно для
+                  <span>малогабаритной квартиры</span>. С помощью данного
+                  совмещения, получается добиться
+                  <span>действительно</span> оригинального и
+                  <span>многофункционального жилого пространства</span>.
+                </p>
+              </div>
+              <img
+                src="./images/individual_approach2.png"
+                alt="individual_approach"
+              />
+            </div>
+            <div class="item">
+              <img
+                src="./images/individual_approach3.png"
+                alt="individual_approach"
+              />
+              <div class="text">
+                <h4>Осторвная вытяжка оригенальное оформление</h4>
+                <p>
+                  Мы с восторгом приняли от итальянцев
+                  <span>интерьерное новшество</span> – кухню-остров. Оценили
+                  <span>удобство, комфорт, оригинальное оформление</span>.
+                  Композицию стол-остров с вытяжкой стали обустраивать не только
+                  на просторных кухнях, но и
+                  <span>в достаточно маленьких помещениях</span>.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <img
+          src="./images/individual_approach_bg.png"
+          alt="individual_approach_bg"
+          class="first"
+        />
+        <img
+          src="./images/individual_approach_bg.png"
+          alt="individual_approach_bg"
+          class="second"
+        />
+        <img
+          src="./images/individual_approach_bg.png"
+          alt="individual_approach_bg"
+          class="third"
+        />
+      </section>
+      <section class="container8 center">
+        <h2>видио отзыв наших клиентов</h2>
+        <h3>
+          Всегда приятно видеть довольных покупателей, которые в восторге от
+          своей новой кухни. спасибо за доворие к нам.
+        </h3>
+        <div class="reviews">
+          <div class="item">
+            <img src="./images/reviews1.png" alt="reviews" />
+            <button>
+              Смотреть видео
+              <img src="./images/img_play.svg" alt="play" />
+            </button>
+            <p>Сергей кухня на алибегова 33</p>
+          </div>
+          <div class="item">
+            <img src="./images/reviews2.png" alt="reviews" />
+            <button>
+              Смотреть видео
+              <img src="./images/img_play.svg" alt="play" />
+            </button>
+            <p>Альбина кухня на пушкина 148</p>
+          </div>
+          <div class="item">
+            <img src="./images/reviews3.png" alt="reviews" />
+            <button>
+              Смотреть видео
+              <img src="./images/img_play.svg" alt="play" />
+            </button>
+            <p>Александр и катерина кухня на ратомка 12</p>
+          </div>
+        </div>
+        <a href="#">Смотреть все</a>
+      </section>
+      <section class="container9 center">
+        <h2>подарки и скидки</h2>
+        <div class="discount">
+          <div class="item">
+            <img src="./images/discount1.png" alt="discount" />
+            <a href="#">
+              При заказе мебели во всю квартиру<br />
+              <span>скидка 30% + подарок</span>
+            </a>
+          </div>
+          <div class="item">
+            <img src="./images/discount2.png" alt="discount" />
+            <a href="#">
+              При 100% оплате договора по мебели<br />
+              <span>скидка 10% или подарок</span>
+            </a>
+          </div>
+        </div>
+        <a href="">Подробнее</a>
+      </section>
+      <section class="container10">
+        <div class="center">
+          <h2>хотите мы перезвоним вам?</h2>
+          <form>
+            <input type="text" placeholder="Имя" />
+            <input type="text" placeholder="Телефон" />
+            <button>Жду звонка</button>
+          </form>
+        </div>
+      </section>
+      <footer class="last_container">
+        <div class="center">
+          <div class="logo">
+            <img src="./images/logo_website.png" alt="logo" />
+            ealag
+          </div>
+          <div class="last_content">
+            <div class="web_social">
+              <p>Социальные сети</p>
+              <a href="#"
+                ><img src="./images/logo_twiter.svg" alt="twiter"
+              /></a>
+              <a href="#"
+                ><img src="./images/logo_facebook.svg" alt="facebook" /></a
+              ><a href="#"
+                ><img src="./images/logo_instagram.svg" alt="instagram"
+              /></a>
+            </div>
+            <p class="time_work">Работаем ежедневно С 9:00 - 21:00</p>
+            <p class="call">Вызов дизайнера бесплатно</p>
+            <p class="number">
+              <img src="./images/icon_header2.svg" alt="icon" />
+              +375 44 896 88 44
+            </p>
+            <a href="">Заказать звонок</a>
+          </div>
+        </div>
+      </footer>
+    </div>
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+      integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+      integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
